@@ -1,0 +1,96 @@
+@font-face {
+    font-family: persona;
+    src: url(font/p5hatty.ttf);
+}
+body {
+    background-image: url(img/persona.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #ff0505   ;
+}
+fieldset{
+    box-shadow: 2px 2px 2px 2px #0d0d0d;
+    border-color: #0d0d0d;
+    border-radius: 10px;
+    background-color: #ff0505;
+    width: 25%;
+    padding: 2%;
+    padding-left: 2%;
+    margin-top: 2%;
+    margin-left: 1%;
+    opacity: 0.9;
+}
+legend {
+    border-color: #0d0d0d;
+    box-shadow: 2px 2px 2px 2px #0d0d0d ;
+    border-radius: 3px;
+    background-color: #ff0505;
+    font-size: 1.5em;
+    font-family: persona;
+    color: snow;
+}
+label{
+    font-size: 1.5em;
+    font-family: persona;
+    color: snow;
+}
+input{
+    padding: 3%;
+    background: none;
+    border-color: #0d0d0d;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #0d0d0d;
+}
+div {
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+button:hover {
+    background-color: #0d0d0d;
+
+}
+button {
+    color:snow;
+    font-family: persona;
+    font-size: 20px;
+    margin-top: 5%;
+    border-color: #0d0d0d;
+    border-radius: 10px;
+    background: none;
+    box-shadow: 1px 1px 1px 1px #0d0d0d;
+    margin-left: 30%;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+}
+#pedido {
+    float: left;
+}
+#sobre {
+    width: 30%;
+    float: right;
+}
+p {
+    font-size: 1.5em;
+    font-family: persona;
+    color: snow;
+    text-align: left;
+    opacity: 1;
+}
+#about_us {
+    width: 500px;
+    margin-left: 27%;
+}
+#slogan {
+
+    color: snow;
+    font-style: italic;
+    font-size: 1.5em;
+    opacity: 1;
+}
+::placeholder{
+    color: snow;
+    font-size: 1.5em;
+    font-family: persona;
+}
